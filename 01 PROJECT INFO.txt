@@ -1,0 +1,28 @@
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+
+**Instructions**
+1. Navigate to Your Django Project Directory Open a terminal and go to the directory where your Django project is located.
+example: cd /path/to/your/django/project
+
+2. Run the Django Shell Command to Create Superuser You can create a superuser by running the following command(Open terminal and run the following command):
+command: python manage.py createsuperuser
+
+3. Provide the Required Information After running the command, Django will prompt you for the following details:
+
+Username: Enter the username for the superuser.
+Email: Provide the email address for the superuser.
+Password: You will need to enter and confirm a password.
+
+4. Start the Django Development Server After creating the superuser, run the server with the command:
+command: python manage.py runserver
+
+5. Access the Admin Interface Open a browser and go to the following URL to access the Django admin interface:
+command: http://127.0.0.1:8000/admin
+
+6. Log In Use the superuser credentials (username and password) you created earlier to log into the Django admin panel.
